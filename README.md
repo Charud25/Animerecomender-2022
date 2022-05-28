@@ -99,7 +99,7 @@ https://user-images.githubusercontent.com/82705387/170839999-04374f9c-77e5-4b4d-
 
 3. The process of input , output and display of results are completely seamless and the recommedation provided by the algorithm are quite accurate according to user experience.
   
-## Anime Reommendation Machine learning model
+## Anime Recommendation Machine learning model
 
 Objectives of the project -
 
