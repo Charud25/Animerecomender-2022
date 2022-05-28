@@ -108,7 +108,7 @@ Objectives of the project -
 3.   Preparing data for consumption- Sonaeru (備える)
 4.   Recommendation building phase — Tsukuru (作る)
 
-Combined these 4 pointers and created a highly accurate anime recomender system using content based and collaborative filtering.Used a dataset of information on user preference data from 73,516 users on 12,294 anime.After creating the model I have integrated it with the front end of the website which was built using ReactJS by using django framework and deployed the final app on Heroku cloud platform.
+Combined these 4 pointers and created a highly accurate anime recomender system using content based and collaborative filtering. Used a dataset of information on user preference data from 73,516 users on 12,294 anime. After creating the model I have integrated it with the front end of the website which was built using ReactJS by using django framework and deployed the final app on Heroku cloud platform.
   
  <!-- ACKNOWLEDGEMENTS -->
 
