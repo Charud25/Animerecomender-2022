@@ -24,6 +24,7 @@ Your intelligent Anime Recommender Buddy !
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+               <li><a href="https://github.com/Charud25/MicrosoftEngage-2022/edit/main/README.md#motivation-for-this-project">Motivation</a></li>
         <li><a href="#salient-features">Salient Features</a></li>
         <li><a href="#compatible-platforms">Compatible Platforms</a></li>
         <li><a href="#technologies-used">Technologies Used</a></li>
@@ -31,12 +32,13 @@ Your intelligent Anime Recommender Buddy !
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
+        <li><a href="#prerequisites">Prerequesities</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#navigating-through-the-app">Navigating Through The App</a></li><ul>
-        <li><a href="#select-anime--web-appliaction">Select-Anime  Web appliaction</a></li>
-        <li><a href="#anime-reommendation-machine-learning-model">Anime Reommendation Machine learning model</a></li>
+        <li><a href="#select-anime--web-application">Select-Anime  Web appliaction</a></li>
+        <li><a href="#anime-recommendation-machine-learning-model">Anime Reommendation Machine learning model</a></li>
       </ul>
     <li><a href="#resources-used">Resources Used</a></li>
   </ol>
@@ -49,15 +51,18 @@ Your intelligent Anime Recommender Buddy !
 * It is a Content Based Anime Recommender System which is an end to end unsupervised ML project built using React and Django and deployed to Heroku Cloud Platform. 
 * Created to help Anime lovers make better choice and help buissness of streaming platforms grow .
 
-### Salient Features
+## Motivation for this project 
+During lockdown or even now , there are times I am bored of movies ans tv shows and want something different and entertaining at the same time . Anime is the next cool option in this case ! But  even after deciding I want to watch anime I am always confused  and the question of ’what to watch next?’ never leaves my mind! This was the idea behind my project . I wanted to help all the anime lovers stuck like me to find their perfect choice !
+
+## Salient Features
 * User can select animes from a database of 12,294 anime
 * This data set contains information on user preference data from 73,516 users.Each user is able to add anime to their completed list and give it a rating and this data set is a compilation of those ratings.
 * User can also search their favourite anime and get recommendations from the model which provides us with more than 20 choices .
  
-### Compatible Platforms
+## Compatible Platforms
 Laptops, Desktops and Tablet PCs
 
-### Technologies Used
+## Technologies Used
 
 <p align="left"> <a href="https://getbootstrap.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://user-images.githubusercontent.com/82705387/170838888-04528cf0-abc2-41e0-8967-a2656c72d17e.png" width="40" height="40/> <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <img src="https://pluralsight2.imgix.net/paths/images/react-c618d5c243.png" alt="mongodb" width="40" height="40"/> <img src="https://www.fullstackpython.com/img/logos/django.png" alt="nodejs" width="40" height="40"/> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png" alt="sass" width="40" height="40"/> </a> <img src="https://user-images.githubusercontent.com/82705387/170839156-823b1356-e096-4064-8c48-b5db2ccf45d4.png" width="40" height="40"/><img src="https://daqxzxzy8xq3u.cloudfront.net/wp-content/uploads/2019/04/21032431/redux-cover-imgage-1024x768.jpg" width="40" height="40"/> </a> </p>
 
@@ -65,24 +70,44 @@ Laptops, Desktops and Tablet PCs
 <!-- installing the project -->
 ## Getting Started
 
- ### Installation
+## Prerequisites
+Make sure to install the required dependencies via node package manager 
+```bash
+  npm install
+```
+ 
+ 
+## Installation
 
-1. `git clone https://selectanime.herokuapp.com/` 
-2. `cd ./selectanime`
-3. Install node dependencies 
-   - `npm install`
-4. Create a `.env` file 
-   - Add relevant credentials
-   - `cp .env.example .env` 
-5. `python manage.py runserver`
+1. Clone my github repository on your local system
+ ```bash
+ git clone https://github.com/Charud25/MicrosoftEngage-2022
+ ```
+2. Go over to the project directory
+ ```bash
+ cd ./selectanime
+ ```
+3. For setting up client , you can go over to this <a href="https://github.com/Charud25/MicrosoftEngage-2022/tree/main/Client#getting-started-with-create-react-app">link </a>.
+ 
+4. For setting up server , follow these steps :
+
+ 5. Setup a virtual environment in the project 
+ ```bash
+ python3 -m venv env
+ ``` 
+
+ 5. Run server by using the command,
+ ```bash
+ python manage.py runserver
+ ```
 6. The app is now running at http://127.0.0.1:8000
 
 <!-- APP TUTORIAL-->
 ## Navigating Through The App
 
-## Select-Anime  Web appliaction
+## Select-Anime  Web application
 
-1.  To use my app, you can directly go to `https://selectanime.herokuapp.com/` and access the recommedation system application. 
+1.  To use my app, you can directly go to the link in the description of this github repository and access the recommedation system application. 
 
 <p align="center"><img src="Images/Homesecreen.png" alt="video call welcome screen" width="700"/></p>
 
@@ -107,11 +132,34 @@ Objectives of the project -
 2.   Analyze the data- Byakugan (白ガン)
 3.   Preparing data for consumption- Sonaeru (備える)
 4.   Recommendation building phase — Tsukuru (作る)
+ 
+### Recommendation algorithm
+ 
+In my recommendation engine , With the ability of machine learning, I have ecplored the dataset in search of ‘what to watch next?’ using content based and collaborative filtering.
+ 
+## Collaborative Filtering
 
-Combined these 4 pointers and created a highly accurate anime recomender system using content based and collaborative filtering. Used a dataset of information on user preference data from 73,516 users on 12,294 anime. After creating the model I have integrated it with the front end of the website which was built using ReactJS by using django framework and deployed the final app on Heroku cloud platform.
-  
+Collaborative filtering is a technique that can filter out items that a user might like on the basis of reactions by similar users. It works by searching a large group of people and finding a smaller set of users with tastes similar to a particular user.To implement an item based collaborative filtering, KNN is a perfect go-to model and also a very good baseline for recommender system development.
+
+<p align="center"><img src="Images/1_6_NlX6CJYhtxzRM-t6ywkQ.png" alt="video call welcome screen" width="700"/></p>
+ 
+Cosine Similarity using KNN
+
+Cosine similarity is a metric used to measure how similar the documents are irrespective of their size. Mathematically, it measures the cosine of the angle between two vectors projected in a multi-dimensional space. The cosine similarity is advantageous because even if the two similar documents are far apart by the Euclidean distance (due to the size of the document), chances are they may still be oriented closer together. The smaller the angle, higher the cosine similarity .
+
+ ## Content based filtering
+
+Content-based filtering, also referred to as cognitive filtering, recommends items based on a comparison between the content of the items and a user profile. The content of each item is represented as a set of descriptors or terms, typically the words that occur in a document.A content based recommender works with data that the user provides, either explicitly (rating) or implicitly (clicking on a link). Based on that data, a user profile is generated, which is then used to make suggestions to the user. As the user provides more inputs or takes actions on the recommendations, the engine becomes more and more accurate. Learn more about content based filtering in Analytics Vidhya
+
+ <p align="center"><img src="Images/content.png" alt="video call welcome screen" width="700"/></p>
+ 
+Scikit-learn already provides pairwise metrics (a.k.a. kernels in machine learning parlance) that work for both dense and sparse representations of vector collections. Here we need to assign 1 for recommended anime and 0 for not recommended anime. So we are using sigmoid kernel.
+I have  then created the function for getting the recommendation for an anime. We turn the similarity scores into lists using enumerate function, sort the list and select the top 10 score for recommendation.
+ 
+
+Combined these all these points I have created a highly accurate anime recomender system using content based and collaborative filtering. Used a dataset of information on user preference data from 73,516 users on 12,294 anime. After creating the model I have integrated it with the front end of the website which was built using ReactJS by using django framework and deployed the final app on Heroku cloud platform.
+ 
+ 
  <!-- ACKNOWLEDGEMENTS -->
 
-## Resources Used
 
-*
