@@ -79,28 +79,28 @@ Make sure to install the required dependencies via node package manager
  
 ## Installation
 
-1. Clone my github repository on your local system
+1.   Clone my github repository on your local system
  ```bash
  git clone https://github.com/Charud25/MicrosoftEngage-2022
  ```
-2. Go over to the project directory
+2.   Go over to the project directory
  ```bash
  cd ./selectanime
  ```
-3. For setting up client , you can go over to this <a href="https://github.com/Charud25/MicrosoftEngage-2022/tree/main/Client#getting-started-with-create-react-app">link </a>.
+3.   For setting up client , you can go over to this <a href="https://github.com/Charud25/MicrosoftEngage-2022/tree/main/Client#getting-started-with-create-react-app">link </a>.
  
-4. For setting up server , follow these steps :
+4.   For setting up server , follow these steps :
 
- 5. Setup a virtual environment in the project 
+ 5.   Setup a virtual environment in the project 
  ```bash
  python3 -m venv env
  ``` 
 
- 5. Run server by using the command,
+ 5.   Run server by using the command,
  ```bash
  python manage.py runserver
  ```
-6. The app is now running at http://127.0.0.1:8000
+6.    The app is now running at http://127.0.0.1:8000
 
 <!-- APP TUTORIAL-->
 ## Navigating Through The App
@@ -135,8 +135,8 @@ Objectives of the project -
  
 ### Recommendation algorithm
  
-In my recommendation engine , With the ability of machine learning, I have ecplored the dataset in search of ‘what to watch next?’ using content based and collaborative filtering.
- 
+In my recommendation engine , With the ability of machine learning, I have explored the dataset in search of ‘what to watch next?’ using content based and collaborative filtering.
+
 ## Collaborative Filtering
 
 Collaborative filtering is a technique that can filter out items that a user might like on the basis of reactions by similar users. It works by searching a large group of people and finding a smaller set of users with tastes similar to a particular user.To implement an item based collaborative filtering, KNN is a perfect go-to model and also a very good baseline for recommender system development.
