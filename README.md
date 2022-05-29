@@ -24,7 +24,7 @@ Your intelligent Anime Recommender Buddy !
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-               <li><a href="https://github.com/Charud25/MicrosoftEngage-2022/edit/main/README.md#motivation-for-this-project">Motivation</a></li>
+               <li><a href="#motivation-for-this-project">Motivation</a></li>
         <li><a href="#salient-features">Salient Features</a></li>
         <li><a href="#compatible-platforms">Compatible Platforms</a></li>
         <li><a href="#technologies-used">Technologies Used</a></li>
