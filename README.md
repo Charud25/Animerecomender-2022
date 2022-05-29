@@ -40,7 +40,6 @@ Your intelligent Anime Recommender Buddy !
         <li><a href="#select-anime--web-application">Select-Anime  Web appliaction</a></li>
         <li><a href="#anime-recommendation-machine-learning-model">Anime Reommendation Machine learning model</a></li>
       </ul>
-    <li><a href="#resources-used">Resources Used</a></li>
   </ol>
 </details>
 
