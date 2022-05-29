@@ -153,10 +153,8 @@ Content-based filtering, also referred to as cognitive filtering, recommends ite
 
  <p align="center"><img src="Images/content.png" alt="video call welcome screen" width="700"/></p>
  
-Scikit-learn already provides pairwise metrics (a.k.a. kernels in machine learning parlance) that work for both dense and sparse representations of vector collections. Here we need to assign 1 for recommended anime and 0 for not recommended anime. So we are using sigmoid kernel.
-I have  then created the function for getting the recommendation for an anime. We turn the similarity scores into lists using enumerate function, sort the list and select the top 10 score for recommendation.
+ I have explained about my whole recommendation engine in this <a href="https://docs.google.com/document/d/1EVpnFQ2vMfes9e8y2Wy2ba_oDIkxAQbIxEbBCEv4Fgo/edit?usp=sharing"> document</a> feel free to check it out !
  
-
 Combined these all these points I have created a highly accurate anime recomender system using content based and collaborative filtering. After creating the model I have integrated it with the front end of the website which was built using ReactJS by using django framework and deployed the final app on Heroku cloud platform.
  
  
