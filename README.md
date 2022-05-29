@@ -157,7 +157,7 @@ Scikit-learn already provides pairwise metrics (a.k.a. kernels in machine learni
 I have  then created the function for getting the recommendation for an anime. We turn the similarity scores into lists using enumerate function, sort the list and select the top 10 score for recommendation.
  
 
-Combined these all these points I have created a highly accurate anime recomender system using content based and collaborative filtering. Used a dataset of information on user preference data from 73,516 users on 12,294 anime. After creating the model I have integrated it with the front end of the website which was built using ReactJS by using django framework and deployed the final app on Heroku cloud platform.
+Combined these all these points I have created a highly accurate anime recomender system using content based and collaborative filtering. After creating the model I have integrated it with the front end of the website which was built using ReactJS by using django framework and deployed the final app on Heroku cloud platform.
  
  
  <!-- ACKNOWLEDGEMENTS -->
