@@ -14,7 +14,7 @@ Your intelligent Anime Recommender Buddy !
 <p align="center">
  <a target="_blank" href="https://selectanime.herokuapp.com/">Link to the App</a>
     ·
- <a target="_blank" href="https://youtu.be/O7uGtnhZe2s">Video Demo</a>
+ <a target="_blank" href="https://drive.google.com/file/d/1cXyD6B5MSzdpG4QpVkH6Em8UBRqaCBaN/view?usp=sharing">Video Demo</a>
 </p>
     
 <!-- TABLE OF CONTENTS -->
