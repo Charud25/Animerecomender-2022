@@ -1,5 +1,5 @@
 # SelectAnime
-## Submission for Microsoft Engage 2022 🌟
+<!-- ## Submission for Microsoft Engage 2022 🌟 -->
 
 Your intelligent Anime Recommender Buddy !
 
